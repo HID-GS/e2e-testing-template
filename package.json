@@ -1,0 +1,20 @@
+{
+  "name": "e2e-testing-fpx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest || exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer-core": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "jest-junit": "^11.1.0",
+    "jest-puppeteer": "^4.4.0"
+  }
+}
