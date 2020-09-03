@@ -1,3 +1,6 @@
+require('module-alias/register');
+const chromePaths = require('chrome-paths');
+
 module.exports = {
     launch: {
         headless: true,
@@ -7,6 +10,6 @@ module.exports = {
           "--no-sandbox",
           "--disable-gpu",
         ],
-        executablePath: "/usr/bin/chromium-browser"
+        executablePath: chromePaths.chrome
     }
 }
