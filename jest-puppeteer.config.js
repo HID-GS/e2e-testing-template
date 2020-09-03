@@ -10,6 +10,6 @@ module.exports = {
           "--no-sandbox",
           "--disable-gpu",
         ],
-        executablePath: chromePaths.chrome
+        executablePath: chromePaths.chromium
     }
 }
