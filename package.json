@@ -12,9 +12,7 @@
   "dependencies": {
     "chrome-paths": "^1.0.1",
     "module-alias": "^2.2.2",
-    "puppeteer-core": "^5.2.1"
-  },
-  "devDependencies": {
+    "puppeteer-core": "^5.2.1",
     "jest": "^26.4.0",
     "jest-junit": "^11.1.0",
     "jest-puppeteer": "^4.4.0"
