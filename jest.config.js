@@ -6,5 +6,6 @@ module.exports = {
     testMatch: [
         "**/test/**/*.test.js"
     ],
-    verbose: true
+    verbose: true,
+    reporters: [ "default", "jest-junit" ]
 }
